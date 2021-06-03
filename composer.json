@@ -19,5 +19,12 @@
         "psr-4": {
             "notabenedev\\SiteServices\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "notabenedev\\SiteServices\\SiteServicesServiceProvider"
+            ]
+        }
     }
 }
